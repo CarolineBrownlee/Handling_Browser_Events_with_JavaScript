@@ -1,0 +1,17 @@
+#article_div {
+    display: flex;
+}
+
+#article_one {
+    width: 50%;
+    border: cornflowerblue solid 2px;
+}
+
+#article_two {
+    width: 50%;
+    border: black solid 2px;
+}
+
+#inputField {
+    padding-bottom: 20px;
+}
