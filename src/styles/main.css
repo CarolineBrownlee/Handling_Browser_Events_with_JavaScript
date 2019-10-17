@@ -2,13 +2,16 @@
     display: flex;
 }
 
-#article_one {
+.article_one {
     width: 50%;
+    height: 25px;
     border: cornflowerblue solid 2px;
+    
 }
 
-#article_two {
+.article_two {
     width: 50%;
+    height: 25px;
     border: black solid 2px;
 }
 

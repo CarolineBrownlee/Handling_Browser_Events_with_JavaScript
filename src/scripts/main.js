@@ -8,8 +8,16 @@
 // Write an event listener that listens for the keyup event on the input field.
 // The event handler function should update the textContent property of both sections.
 
-const message = document.querySelector("#message")
+const message = document.getElementById("message")
+let outputElLeft = document.querySelector(".article_one")
+let outputElRight = document.querySelector(".article_two")
 
 message.addEventListener("keyup", event => {
-    event.textContent
+    outputElLeft.textContent = event.target.value
+    outputElRight.textContent = event.target.value
 })
+
+
+// document.querySelector("body").addEventListener("click", function(event) {
+//     console.log("You clicked on the body of the DOM")
+// })
