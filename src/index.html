@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!-- CSS Links to Each JavaScript file for each exercise. -->
+    <!-- CSS Links to Each JavaScript file for each exercise. -->
     <link rel="stylesheet" href="styles/mirrorMirrorInTheCode.css">
     <link rel="stylesheet" href="styles/scrollingAndScaling.css">
+    <link rel="stylesheet" href="styles/wonderPowersActivate.css">
     <title>Document</title>
 </head>
-<body> 
+
+<body>
+
 <!-- Mirror, Mirror in the Code Exercise HTML -->
     <h1>Mirror, Mirror in the Code</h1><br>
-    <div id="inputField"> 
+    <div id="inputField">
         <label for="message">Enter Some Text:</label>
         <input type="text" id="message">
     </div>
@@ -20,14 +24,39 @@
         <article class="article_one"></article>
         <article class="article_two"></article>
     </div>
+
 <!-- Scrolling and Scaling Exercise HTML -->
-    <h1>Scrolling and Scaling</h1>
+    <h1>Scrolling and Scaling</h1><br>
     <article id="container">
         <section id="audrey">Feed me, Seymour</section>
+    </article><br>
+    
+
+<!-- Wonder Powers Activate Exercise HTML -->
+    <h1>Wonder Powers Activate!</h1>
+    <article id="powerList">
+        <section id="flight" class="power disabled">
+            Flight
+        </section>
+        <section id="mindreading" class="power disabled">
+            Mind Reading
+        </section>
+        <section id="xray" class="power disabled">
+            X-ray Vision
+        </section>
     </article>
 
-<!-- Script Links to Each JavaScript file for each exercise. -->
+    <button id="activate-flight">Activate Flight</button>
+    <button id="activate-mindreading">Activate Mind Reading</button>
+    <button id="activate-xray">Active X-ray Vision</button>
+
+    <button id="activate-all">Active All Powers</button>
+    <button id="deactivate-all">Deactive All Powers</button>
+
+    <!-- Script Links to Each JavaScript file for each exercise. -->
+    <script src="scripts/wonderPowersActivate.js"></script>
     <script src="scripts/mirrorMirrorInTheCode.js"></script>
     <script src="scripts/scrollingAndScaling.js"></script>
 </body>
+
 </html>

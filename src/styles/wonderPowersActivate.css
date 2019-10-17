@@ -1,0 +1,12 @@
+.disabled {
+    background-color: gray;
+}
+
+.enabled {
+    background-color: fuchsia;
+    color: goldenrod;
+}
+
+button {
+    margin-bottom: 75px;
+}
